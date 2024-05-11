@@ -1,4 +1,4 @@
-## Webpnk/Supabase
+## webpnk/supabase-edge-serve
 
 A `Deno.serve()` wrapper for Supabase edge runtime
 
