@@ -10,7 +10,7 @@ Features:
 ### Usage
 
 ```ts
-import { serve } from "https://deno.land/x/webpnk-supabase@v0.1.0/mod.ts";
+import { serve } from "https://deno.land/x/supabase_edge_serve@1.0.0/mod.ts";
 
 serve((req, response, info) => {
     return response.json({ success: true }, { status: 201 })
@@ -20,7 +20,7 @@ serve((req, response, info) => {
 ### With custom cors
 
 ```ts
-import { serve } from "https://deno.land/x/webpnk-supabase@v0.1.0/mod.ts";
+import { serve } from "https://deno.land/x/supabase_edge_serve@1.0.0/mod.ts";
 
 serve((req, response, info) => {
     return response.json({ success: true }, { status: 201 })
